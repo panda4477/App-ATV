@@ -1,1 +1,19 @@
+<launchers>
+    <app>
+        <name>Launcher One</name>
+        <url>https://example.com/launcher1.apk</url>
+        <file>LauncherOne.apk</file>
+    </app>
 
+    <app>
+        <name>Another Launcher</name>
+        <url>https://example.com/another.apk</url>
+        <file>AnotherLauncher.apk</file>
+    </app>
+
+    <app>
+        <name>My Launcher</name>
+        <url>https://example.com/mylauncher.apk</url>
+        <file>MyLauncher.apk</file>
+    </app>
+</launchers>
