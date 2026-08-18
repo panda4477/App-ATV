@@ -1,19 +1,19 @@
 <launchers>
     <app>
-        <name>Launcher One</name>
-        <url>https://example.com/launcher1.apk</url>
-        <file>LauncherOne.apk</file>
+        <name>ATV Launcher</name>
+        <url>https://github.com/panda4477/App-ATV/raw/refs/heads/main/ATV_Launcher.apk</url>
+        <file>ATV_Launcher.apk</file>
     </app>
 
     <app>
-        <name>Another Launcher</name>
-        <url>https://example.com/another.apk</url>
-        <file>AnotherLauncher.apk</file>
+        <name>Wolf_Launcher</name>
+        <url>https://github.com/panda4477/App-ATV/raw/refs/heads/main/Wolf_Launcher_v1.0.9.apk</url>
+        <file>Wolf_Launcher_v1.0.9.apk</file>
     </app>
 
     <app>
-        <name>My Launcher</name>
-        <url>https://example.com/mylauncher.apk</url>
-        <file>MyLauncher.apk</file>
+        <name>Projectivy_Launcher</name>
+        <url>https://github.com/panda4477/App-ATV/raw/refs/heads/main/Projectivy_Launcher_v4.22_-_Mod.apk</url>
+        <file>Projectivy_Launcher_v4.22_-_Mod.apk</file>
     </app>
 </launchers>
