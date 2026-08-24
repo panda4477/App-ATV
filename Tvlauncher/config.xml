@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launcher>
+    <wallpapers interval="30">
+        <wallpaper>
+            <url>https://raw.githubusercontent.com/USER/REPO/main/wallpaper/wall1.jpg</url>
+        </wallpaper>
+
+        <wallpaper>
+            <url>https://raw.githubusercontent.com/USER/REPO/main/wallpaper/wall2.jpg</url>
+        </wallpaper>
+    </wallpapers>
+</launcher>
