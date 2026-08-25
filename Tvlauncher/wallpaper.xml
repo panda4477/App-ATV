@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    ไฟล์ตั้งค่ารูปพื้นหลังออนไลน์ของ ATV Wallpaper
+
+    imageUrl = ลิงก์รูปภาพที่ต้องการแสดง
+    delay    = ระยะเวลารอก่อนแสดงรูป หน่วยเป็นมิลลิวินาที
+
+    ตัวอย่าง:
+    1000 = 1 วินาที
+    3000 = 3 วินาที
+    5000 = 5 วินาที
+
+    ถ้าเปลี่ยนรูป ให้แก้ลิงก์ภายใน imageUrl
+    โดยไม่ต้องแก้หรือสร้าง APK ใหม่
+-->
+
+<wallpaper>
+    <imageUrl>https://github.com/panda4477/App-ATV/blob/main/Tvlauncher/1363137.png?raw=true</imageUrl>
+
+    <!-- รอ 3 วินาทีก่อนแสดงรูป -->
+    <delay>3000</delay>
+</wallpaper>
