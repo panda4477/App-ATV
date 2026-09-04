@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app version="1">
+    <title>ATV Control</title>
+
+    <description>
+        เลือกเมนูที่ต้องการใช้งาน
+    </description>
+
+    <menu
+        id="dns"
+        title="DNS"
+        description="ตั้งค่า Private DNS สำหรับ Android TV"
+        file="dns.xml"
+        enabled="true"
+        requiresAdb="true" />
+
+    <menu
+        id="reboot"
+        title="Reboot Mode"
+        description="รีสตาร์ทเครื่องเข้าสู่โหมดต่าง ๆ"
+        file="reboot.xml"
+        enabled="true"
+        requiresAdb="true" />
+
+    <menu
+        id="support"
+        title="Support"
+        description="ติดต่อผู้พัฒนาและสนับสนุนโปรเจกต์"
+        file="support.xml"
+        enabled="true"
+        requiresAdb="false" />
+</app>

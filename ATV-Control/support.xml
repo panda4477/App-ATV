@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu id="support" version="1">
+    <title>Support</title>
+
+    <description>
+        ใช้สำหรับติดต่อผู้พัฒนา หรือสนับสนุนการพัฒนา ATV Control
+        เมนูนี้ไม่จำเป็นต้องเชื่อมต่อ ADB
+    </description>
+
+    <usage>
+        <line>Telegram ใช้สำหรับติดต่อ Support</line>
+        <line>Support Developer ใช้สำหรับเปิดหน้า PromptPay QR ที่ฝังอยู่ในแอป</line>
+    </usage>
+
+    <item
+        id="telegram"
+        title="Telegram Support"
+        description="ติดต่อ Support ผ่าน Telegram @panda4477t"
+        type="url"
+        value="https://t.me/panda4477t" />
+
+    <item
+        id="promptpay"
+        title="Support Developer"
+        description="เปิดหน้า QR PromptPay ที่ฝังอยู่ภายในแอป"
+        type="internal"
+        value="promptpay"
+        imageResource="promptpay_qr" />
+</menu>

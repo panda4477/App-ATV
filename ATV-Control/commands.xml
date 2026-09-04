@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commands version="1">
+    <description>
+        ไฟล์รวมคำสั่งที่เมนูต่าง ๆ เรียกใช้งานผ่าน Local ADB
+        เมนูจะอ้างอิงคำสั่งด้วยค่า action เพื่อให้แก้ไขคำสั่งภายหลังได้ง่าย
+    </description>
+
+    <command id="DNS_GOOGLE">
+        settings put global private_dns_mode hostname; settings put global private_dns_specifier dns.google
+    </command>
+
+    <command id="DNS_CLOUDFLARE">
+        settings put global private_dns_mode hostname; settings put global private_dns_specifier 1dot1dot1dot1.cloudflare-dns.com
+    </command>
+
+    <command id="DNS_AUTO">
+        settings put global private_dns_mode opportunistic; settings delete global private_dns_specifier
+    </command>
+
+    <command id="DNS_OFF">
+        settings put global private_dns_mode off; settings delete global private_dns_specifier
+    </command>
+
+    <command id="REBOOT_NORMAL">
+        reboot
+    </command>
+
+    <command id="REBOOT_RECOVERY">
+        reboot recovery
+    </command>
+
+    <command id="REBOOT_BOOTLOADER">
+        reboot bootloader
+    </command>
+</commands>
