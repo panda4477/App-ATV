@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <app version="1">
+
     <title>ATV Control</title>
 
-    <description>
-        เลือกเมนูที่ต้องการใช้งาน
-    </description>
+    <welcome file="welcome.xml" />
+    <commands file="commands.xml" />
 
     <menu
         id="dns"
@@ -29,4 +29,5 @@
         file="support.xml"
         enabled="true"
         requiresAdb="false" />
+
 </app>
