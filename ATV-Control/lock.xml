@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <app>
 
-    <!-- 0 = ใช้งานปกติ / 1 = ล็อกแอป -->
+    <!-- 0 = ปกติ / 1 = ล็อก -->
     <lock>0</lock>
 
-    <!-- ข้อความตอนล็อก -->
     <message>
-        กรุณาติดต่อผู้ดูแลเพื่อเปิดใช้งาน ATV Control Center
+        กรุณาติดต่อผู้ดูแลเพื่อเปิดใช้งาน Panda4477_Dev
     </message>
 
-    <!-- Login สำหรับกรณี lock=1 -->
     <username>admin</username>
     <password>1234</password>
 
-    <!-- Support ตอนหน้าล็อก -->
     <support>
-        <name>Telegram Support</name>
-        <username>@panda4477t</username>
-        <url>https://t.me/panda4477t</url>
+
+        <telegram>
+            <name>Telegram</name>
+            <id>@panda4477t</id>
+            <url>https://t.me/panda4477t</url>
+        </telegram>
+
+        <line>
+            <name>LINE</name>
+            <id>txt2007</id>
+            <url></url>
+        </line>
+
+        <facebook>
+            <name>Facebook</name>
+            <id>ออ’ โร ร่า’า ฯ.</id>
+            <url></url>
+        </facebook>
+
     </support>
 
 </app>
