@@ -27,6 +27,14 @@
         action="REBOOT_RECOVERY"
         confirm="true" />
 
+     <item
+        id="boot_update"
+        title="BOOT Mode"
+        description="รีสตาร์ทเครื่องเข้าสู่ usb boot"
+        action="REBOOT_UPDATE"
+        confirm="true" />
+
+
     <item
         id="reboot_bootloader"
         title="Bootloader Mode"
