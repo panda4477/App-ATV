@@ -1,1 +1,5 @@
-
+<config>
+    <wallpaper>
+        <url>https://raw.githubusercontent.com/.../wallpaper.jpg</url>
+    </wallpaper>
+</config>
