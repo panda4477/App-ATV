@@ -1,1 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app>
 
+    <!-- 0 = ปกติ / 1 = ล็อก -->
+    <lock>0</lock>
