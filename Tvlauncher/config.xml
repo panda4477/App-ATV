@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<atv_launcher version="1.0">
-    
-    <normal>
+<wallpaper>
+    <imageUrl>https://raw.githubusercontent.com/panda4477/App-ATV/refs/heads/main/Tvlauncher/images.jpg</imageUrl>
 
-
-        <!-- Wallpaper หน้า Launcher ปกติ -->
-
-        <wallpaper
-            url="https://github.com/panda4477/App-ATV/blob/main/Tvlauncher/images.jpg?raw=true" />
-
-
-</atv_launcher>
+    <!-- รอ 3 วินาทีก่อนแสดงรูป -->
+    <delay>3000</delay>
+</wallpaper>
