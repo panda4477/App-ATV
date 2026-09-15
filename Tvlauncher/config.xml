@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <wallpaper>
-    <imageUrl>https://raw.githubusercontent.com/panda4477/App-ATV/refs/heads/main/Tvlauncher/images.jpg</imageUrl>
+    <imageUrl>https://github.com/panda4477/App-ATV/blob/main/ATV_PRO_WOLK/default_wallpaper.jpg?raw=true</imageUrl>
 
     <!-- รอ 3 วินาทีก่อนแสดงรูป -->
     <delay>3000</delay>
